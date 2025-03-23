@@ -1,5 +1,6 @@
-#include<stdio.h>
-#include<unistd.h>
+#include <stdio.h>
+#include <unistd.h>
+#include <wait.h>
 void main() {
  pid_t id;
  id = fork();
