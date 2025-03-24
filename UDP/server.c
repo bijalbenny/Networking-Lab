@@ -8,7 +8,7 @@
 #define PORT 4000
 int main()
 {
-int m,n=100,sockfd,addr=sizeof(struct sockaddr_in);
+int n=100,sockfd,addr=sizeof(struct sockaddr_in);
 char buf[1025];
 struct sockaddr_in y;
 sockfd=socket(AF_INET,SOCK_DGRAM,0);
